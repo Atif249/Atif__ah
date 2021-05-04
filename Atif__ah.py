@@ -11,7 +11,7 @@ try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
-    os.system('python2 B4.py')
+    os.system('python2 Atif__ah.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -62,7 +62,7 @@ def trb():
 ##### LOGO #####
 logo='''
 \033[1;94m ┈┈┈┈╱▔▔▔▔╲┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-\033[1;94m ┈┈┈▕▕  ATIF ▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕B4 M4▏▏┈┈┈
+\033[1;94m ┈┈┈▕▕  ATIF ▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕ AH LOVE▏▏┈┈┈
 \033[1;94m ┈┈┈▕▕▂╱╲▂▏▏┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈▕▕▂╱╲▂▏▏┈┈┈
 \033[1;94m ┈┈┈┈╲┊┊┊┊╱┈┈┈┈\033[1;94mShabirBaloch.\033[1;91m┈┈┈┈╲┊┊┊┊╱┈┈┈┈
 \033[1;96m ┈┈┈┈▕╲▂▂╱▏┈┈┈┈☞☞☞☞☞☞\033[1;91m☜☜☜☜☜┈┈┈┈▕╲▂▂╱▏┈┈┈┈
@@ -187,7 +187,7 @@ def mb():
 	    psb('Subscrib My Youtube Channel TECHNICAL ATIF XIDDI✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
-	    os.system('cd $HOME/ATIF && python2 AH.py')
+	    os.system('cd $HOME/ATIF && python2 Atif__ah.py')
 	elif bm =='3':
 	    os.system('xdg-open')
 	    menu()
